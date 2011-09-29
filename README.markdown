@@ -8,9 +8,11 @@ example element should look like this
 `<div data-src="/images/lulz.jpg" data-alt="lulz sec" class="load-lazy"></div>`
 the element will be replaced with <img> tag after image loading is finished.
 You can customize src in the element and alt, for default i used html5 ready "data-" attributes                                                                                                                        d
+
     $(".lazy-load").bulletTime({
       src: 'alt'
     });
+
 will make it pull src of the image from alt attribute ;)
 
 # Author:
